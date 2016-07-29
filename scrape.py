@@ -50,7 +50,7 @@ else:
     
     # loop through tags
     for tag in tags:
-        infonet_url = 'http://infonet-biovision.org/'
+        infonet_url = 'http://infonet-biovision.org'
         td_content =  tag.contents
         
         # remove new line and space characters
